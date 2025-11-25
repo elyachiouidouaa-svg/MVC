@@ -165,10 +165,25 @@ Accès limité
 Peut seulement consulter la liste des produits
  - Page de connexion (login) :
 
-
 <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/1a832a0a-074e-46cf-91c1-660e9790abd8" /> 
 
 <img width="1918" height="1011" alt="image" src="https://github.com/user-attachments/assets/230f3e3e-65ed-48c0-96f0-05735ce37b9e" />
+
+### Conclusion
+
+Cette application Web illustre la puissance de Spring Boot, Spring Data JPA, Hibernate, Thymeleaf et Spring Security pour créer une solution complète de gestion de produits.
+
+Elle permet de :
+
+- gérer efficacement les produits avec toutes les opérations CRUD,
+
+- sécuriser l’accès grâce à une authentification et des rôles (USER et ADMIN),
+
+- fournir une interface utilisateur moderne et responsive avec Thymeleaf et Bootstrap,
+
+- valider les formulaires et faciliter le développement avec H2 et MySQL.
+
+Ce TP constitue une bonne base pour comprendre le développement d’applications Web sécurisées en Java et peut être enrichi avec des fonctionnalités supplémentaires selon les besoins.
 
 
 
