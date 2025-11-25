@@ -138,5 +138,38 @@ L’utilisateur doit se connecter pour accéder aux fonctionnalités sensibles (
 
 Une page de connexion est fournie automatiquement par Spring Security ou personnalisée avec Thymeleaf.
 
-- Page de login :
+Rôles disponibles
+
+### ADMIN
+
+Accès complet à l’application
+
+Peut ajouter, modifier et supprimer des produits
+
+ - Page de connexion (login) :
+
+<img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/5a642ac3-60b1-4bad-abb9-da98e37218aa" />
+
+<img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/aae4bb86-a0bd-4373-8d43-35eeb95c38fd" />
+
+ - Ajouter un produit :
+   
+<img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/0e8ca0e0-5827-4a6d-8fce-2b0268c46079" />
+
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/1dad5074-f1af-4c48-a6a3-fc97b345ff69" />
+
+### USER
+
+Accès limité
+
+Peut seulement consulter la liste des produits
+ - Page de connexion (login) :
+
+
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/1a832a0a-074e-46cf-91c1-660e9790abd8" /> 
+
+<img width="1918" height="1011" alt="image" src="https://github.com/user-attachments/assets/230f3e3e-65ed-48c0-96f0-05735ce37b9e" />
+
+
+
 
