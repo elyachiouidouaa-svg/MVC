@@ -153,10 +153,38 @@ Peut ajouter, modifier et supprimer des produits
 <img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/aae4bb86-a0bd-4373-8d43-35eeb95c38fd" />
 
  - Ajouter un produit :
+Cliquer sur New product
+
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/1dad5074-f1af-4c48-a6a3-fc97b345ff69" />
    
 <img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/0e8ca0e0-5827-4a6d-8fce-2b0268c46079" />
 
-<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/1dad5074-f1af-4c48-a6a3-fc97b345ff69" />
+
+ - Supprimer un produit : Utilisation de Spring Security
+   
+Les routes sensibles sont sécurisées côté serveur avec @PreAuthorize :
+
+Exemple : @PreAuthorize("hasRole('ADMIN')") → seuls les utilisateurs ayant le rôle ADMIN peuvent accéder à cette route.
+
+Empêche un utilisateur non autorisé d’exécuter des actions comme ajouter, modifier ou supprimer un produit.
+
+L’affichage des éléments dans le front est contrôlé avec Thymeleaf et Spring Security :
+
+Les boutons ou liens sensibles (Delete, New Product) ne s’affichent que si l’utilisateur a le rôle approprié.
+
+Même si un utilisateur tente de modifier l’URL ou le HTML, Spring Security bloque l’action côté serveur.
+
+Pour les actions POST sensibles, Spring Security peut protéger via un token CSRF : Cela empêche les attaques de type Cross-Site Request Forgery.
+
+On peut dire que : 
+
+@PreAuthorize → sécurité côté back-end
+
+sec:authorize → sécurité côté front-end
+
+CSRF → protection des requêtes POST critiques
+
+<img width="1918" height="1016" alt="image" src="https://github.com/user-attachments/assets/666a862e-c1ec-4bac-8be3-3f086fde088a" />
 
 ### USER
 
