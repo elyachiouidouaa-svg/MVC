@@ -108,7 +108,7 @@ Les produits sont affichés sous forme de tableau avec leurs détails (nom, prix
 
 Chaque produit dans la liste comporte un bouton Supprimer.
 
-L’utilisateur peut supprimer un produit directement depuis la liste.
+L’admin peut supprimer un produit directement depuis la liste.
 
 - Template basé sur Thymeleaf Layout et Bootstrap :
 
